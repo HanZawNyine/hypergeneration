@@ -1,0 +1,11 @@
+$git status
+
+$git pull origin master
+
+$git add --all
+
+$git commit -m "------"
+(m= command)
+
+$git push -u origin master
+(u=update)
