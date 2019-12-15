@@ -1,2 +1,2 @@
-# hybergeneration
+# hypergeneration
 learning to code
