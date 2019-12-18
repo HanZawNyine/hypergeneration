@@ -1,0 +1,10 @@
+﻿  printstar.cpp
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(26,13): error C2143: syntax error: missing ',' before '=='
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(26,20): warning C4552: '<=': result of expression not used
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(26,29): error C2059: syntax error: ')'
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(28,14): error C2059: syntax error: ';'
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(31,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(31,2): error C2365: 'printf': redefinition; previous definition was 'function'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(948): message : see declaration of 'printf'
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(33,1): error C2059: syntax error: '}'
+C:\Users\user\Documents\GREEN HACKERS WINDOWS\code from github server\c\printstar\printstar\printstar.cpp(33,1): error C2143: syntax error: missing ';' before '}'
