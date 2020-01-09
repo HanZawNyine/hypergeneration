@@ -1,11 +1,25 @@
-$git status
+$git clone (enter your url).git
+
+or
+
+$ git remote add origin (enter your url).git
+
+$git remote -v (view your connect)
 
 $git pull origin master
 
-$git add --all
+$git status
 
-$git commit -m "------"
-(m= command)
+$git add -- all
 
-$git push -u origin master
-(u=update)
+$git commit -m "enter your update"
+
+$git push -u origin master(add username and password with newbox)
+
+$ git config --global user.email
+
+$ git config --global user.name "Your Name"
+
+
+
+
