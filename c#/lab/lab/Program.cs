@@ -16,7 +16,7 @@ namespace lab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmSerach());
+            Application.Run(new frmGirdView());
         }
     }
 }

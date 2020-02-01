@@ -59,12 +59,6 @@
     <Compile Include="frmLab.Designer.cs">
       <DependentUpon>frmLab.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmSerach.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FrmSerach.Designer.cs">
-      <DependentUpon>FrmSerach.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGirdView.resx">
