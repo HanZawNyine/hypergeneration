@@ -53,19 +53,28 @@
     <Compile Include="frmGirdView.Designer.cs">
       <DependentUpon>frmGirdView.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLab.cs">
+    <Compile Include="frmRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmLab.Designer.cs">
-      <DependentUpon>frmLab.cs</DependentUpon>
+    <Compile Include="frmRegister.Designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmGirdView.resx">
       <DependentUpon>frmGirdView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmLab.resx">
-      <DependentUpon>frmLab.cs</DependentUpon>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

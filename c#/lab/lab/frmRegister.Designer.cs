@@ -1,6 +1,6 @@
 ﻿namespace lab
 {
-    partial class frmLab
+    partial class frmRegister
     {
         /// <summary>
         /// Required designer variable.
@@ -37,6 +37,8 @@
             this.txtAddress = new System.Windows.Forms.TextBox();
             this.lblAddress = new System.Windows.Forms.Label();
             this.btnOK = new System.Windows.Forms.Button();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.lblPassword = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblUsername
@@ -58,7 +60,7 @@
             // lblPhone_no
             // 
             this.lblPhone_no.AutoSize = true;
-            this.lblPhone_no.Location = new System.Drawing.Point(39, 83);
+            this.lblPhone_no.Location = new System.Drawing.Point(39, 148);
             this.lblPhone_no.Name = "lblPhone_no";
             this.lblPhone_no.Size = new System.Drawing.Size(73, 17);
             this.lblPhone_no.TabIndex = 2;
@@ -66,15 +68,16 @@
             // 
             // txtPhone_no
             // 
-            this.txtPhone_no.Location = new System.Drawing.Point(187, 80);
+            this.txtPhone_no.Location = new System.Drawing.Point(187, 145);
             this.txtPhone_no.Name = "txtPhone_no";
             this.txtPhone_no.Size = new System.Drawing.Size(375, 22);
             this.txtPhone_no.TabIndex = 3;
+            this.txtPhone_no.TextChanged += new System.EventHandler(this.txtPhone_no_TextChanged);
             // 
             // lblGmail
             // 
             this.lblGmail.AutoSize = true;
-            this.lblGmail.Location = new System.Drawing.Point(39, 148);
+            this.lblGmail.Location = new System.Drawing.Point(39, 213);
             this.lblGmail.Name = "lblGmail";
             this.lblGmail.Size = new System.Drawing.Size(44, 17);
             this.lblGmail.TabIndex = 4;
@@ -82,14 +85,14 @@
             // 
             // txtGmail
             // 
-            this.txtGmail.Location = new System.Drawing.Point(187, 148);
+            this.txtGmail.Location = new System.Drawing.Point(187, 213);
             this.txtGmail.Name = "txtGmail";
             this.txtGmail.Size = new System.Drawing.Size(375, 22);
             this.txtGmail.TabIndex = 5;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(187, 222);
+            this.txtAddress.Location = new System.Drawing.Point(187, 287);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(375, 22);
             this.txtAddress.TabIndex = 7;
@@ -97,7 +100,7 @@
             // lblAddress
             // 
             this.lblAddress.AutoSize = true;
-            this.lblAddress.Location = new System.Drawing.Point(39, 222);
+            this.lblAddress.Location = new System.Drawing.Point(39, 287);
             this.lblAddress.Name = "lblAddress";
             this.lblAddress.Size = new System.Drawing.Size(60, 17);
             this.lblAddress.TabIndex = 6;
@@ -105,7 +108,7 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(187, 297);
+            this.btnOK.Location = new System.Drawing.Point(196, 337);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(375, 61);
             this.btnOK.TabIndex = 8;
@@ -113,11 +116,30 @@
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
-            // frmLab
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(187, 78);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(375, 22);
+            this.txtPassword.TabIndex = 10;
+            this.txtPassword.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // lblPassword
+            // 
+            this.lblPassword.AutoSize = true;
+            this.lblPassword.Location = new System.Drawing.Point(39, 82);
+            this.lblPassword.Name = "lblPassword";
+            this.lblPassword.Size = new System.Drawing.Size(69, 17);
+            this.lblPassword.TabIndex = 9;
+            this.lblPassword.Text = "Passowrd";
+            // 
+            // frmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtPassword);
+            this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.lblAddress);
@@ -127,7 +149,7 @@
             this.Controls.Add(this.lblPhone_no);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.lblUsername);
-            this.Name = "frmLab";
+            this.Name = "frmRegister";
             this.Text = "Lab";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -145,6 +167,8 @@
         private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Button btnOK;
+        private System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label lblPassword;
     }
 }
 

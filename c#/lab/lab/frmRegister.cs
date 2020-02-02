@@ -11,9 +11,9 @@ using MySql.Data.MySqlClient;
 
 namespace lab
 {
-    public partial class frmLab : Form
+    public partial class frmRegister : Form
     {
-        public frmLab()
+        public frmRegister()
         {
             InitializeComponent();
         }
@@ -21,12 +21,13 @@ namespace lab
         private void btnOK_Click(object sender, EventArgs e)
         {
             string name = txtUsername.Text.ToString();
+            string Password = txtPassword.Text.ToString();
             string phoneno = txtPhone_no.Text.ToString();
             string gmail = txtGmail.Text.ToString();
             string address = txtAddress.Text.ToString();
 
 
-            if (name == "" || phoneno == "" || gmail == "" || address == "")
+            if (name == "" || phoneno == "" || gmail == "" || address == ""||Password =="")
             {
                 MessageBox.Show("Please Check Your Input!");
                 txtUsername.Focus();
@@ -39,13 +40,15 @@ namespace lab
                     con.Open();
 
                     MySqlCommand cmd = con.CreateCommand();
-                    cmd.CommandText = "INSERT INTO lab.lab(name,phone_no,gmail,address) VALUES (@name,@phoneno,@gmail,@address)";
+                    cmd.CommandText = "INSERT INTO lab.lab(name,Password,phoneno,gmail,address) VALUES (@name,@Password,@phoneno,@gmail,@address)";
                     cmd.Parameters.AddWithValue("@name",name);
+                    cmd.Parameters.AddWithValue("@Password", Password);
                     cmd.Parameters.AddWithValue("@phoneno", phoneno);
                     cmd.Parameters.AddWithValue("@gmail", gmail);
                     cmd.Parameters.AddWithValue("@address", address);
                     cmd.ExecuteNonQuery();
                     con.Close();
+                    MessageBox.Show("Form Registered !");
                    
 
                 }
@@ -53,8 +56,20 @@ namespace lab
                 {
                     MessageBox.Show(ex.Message);
                 }
-                Application.Exit();
+               // frmLogin fl = new frmLogin();
+                //fl.Show();
+                this.Close();
             }
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            txtPassword.PasswordChar = '*';
+        }
+
+        private void txtPhone_no_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
