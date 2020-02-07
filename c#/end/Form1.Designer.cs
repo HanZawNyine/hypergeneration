@@ -1,4 +1,4 @@
-﻿namespace phone01
+﻿namespace end
 {
     partial class Form1
     {

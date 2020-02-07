@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace phone01
+namespace WindowsFormsApp5
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace phone01
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCustomer());
+            Application.Run(new MainForm  ());
         }
     }
 }
