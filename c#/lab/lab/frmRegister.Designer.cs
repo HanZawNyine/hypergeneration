@@ -151,6 +151,7 @@
             this.Controls.Add(this.lblUsername);
             this.Name = "frmRegister";
             this.Text = "Lab";
+            this.Load += new System.EventHandler(this.frmRegister_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -33,6 +33,8 @@
             this.cboCustomer = new System.Windows.Forms.ComboBox();
             this.txtCustomer = new System.Windows.Forms.TextBox();
             this.btnCustomer = new System.Windows.Forms.Button();
+            this.btndelete = new System.Windows.Forms.Button();
+            this.btnrefresh = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCustomer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,11 +94,33 @@
             this.btnCustomer.UseVisualStyleBackColor = true;
             this.btnCustomer.Click += new System.EventHandler(this.btnCustomer_Click);
             // 
+            // btndelete
+            // 
+            this.btndelete.Location = new System.Drawing.Point(986, 11);
+            this.btndelete.Name = "btndelete";
+            this.btndelete.Size = new System.Drawing.Size(149, 34);
+            this.btndelete.TabIndex = 5;
+            this.btndelete.Text = "delete";
+            this.btndelete.UseVisualStyleBackColor = true;
+            this.btndelete.Click += new System.EventHandler(this.btndelete_Click);
+            // 
+            // btnrefresh
+            // 
+            this.btnrefresh.Location = new System.Drawing.Point(796, 11);
+            this.btnrefresh.Name = "btnrefresh";
+            this.btnrefresh.Size = new System.Drawing.Size(149, 34);
+            this.btnrefresh.TabIndex = 6;
+            this.btnrefresh.Text = "Refresh";
+            this.btnrefresh.UseVisualStyleBackColor = true;
+            this.btnrefresh.Click += new System.EventHandler(this.btnrefresh_Click_1);
+            // 
             // frmCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1427, 450);
+            this.Controls.Add(this.btnrefresh);
+            this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnCustomer);
             this.Controls.Add(this.txtCustomer);
             this.Controls.Add(this.cboCustomer);
@@ -118,5 +142,7 @@
         private System.Windows.Forms.ComboBox cboCustomer;
         private System.Windows.Forms.TextBox txtCustomer;
         private System.Windows.Forms.Button btnCustomer;
+        private System.Windows.Forms.Button btndelete;
+        private System.Windows.Forms.Button btnrefresh;
     }
 }

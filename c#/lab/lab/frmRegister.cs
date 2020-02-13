@@ -71,5 +71,10 @@ namespace lab
         {
 
         }
+
+        private void frmRegister_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
