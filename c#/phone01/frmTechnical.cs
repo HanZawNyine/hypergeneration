@@ -35,5 +35,10 @@ namespace phone01
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void dgvTechnical_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

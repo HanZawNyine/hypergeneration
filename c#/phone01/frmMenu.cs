@@ -105,8 +105,7 @@ namespace phone01
         private void exportDatabaseToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            frmExport fE = new frmExport();
-            fE.ShowDialog();
+            
         }
     }
 }
