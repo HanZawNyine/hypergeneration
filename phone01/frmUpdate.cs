@@ -84,6 +84,7 @@ namespace phone01
                     cmd.Parameters.AddWithValue("@UPhonePassword", UPhonePassword);
                     cmd.ExecuteNonQuery();
                     con.Close();
+
                     con.Open();
                     cmd.CommandText = "UPDATE phone01.customer SET `password`=@UPhonePassword where password`='" + PhonePassword + "'";
                     cmd.Parameters.AddWithValue("@UPhonePassword", UPhonePassword);
@@ -99,6 +100,7 @@ namespace phone01
                     cmd.Parameters.AddWithValue("@UAMount", UAMount);
                     cmd.ExecuteNonQuery();
                     con.Close();
+
                     con.Open();
                     cmd.CommandText = "UPDATE phone01.customer SET `amount`=@UAMount where `amount`='" + Amount + "'";
                     cmd.Parameters.AddWithValue("@UAMount", UAMount);

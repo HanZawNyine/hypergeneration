@@ -77,7 +77,7 @@ namespace phone01
 
                 
                 con.Open();
-                //MySqlDataAdapter adapter;
+                //
 
                 switch (title)
                 {
