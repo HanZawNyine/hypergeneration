@@ -359,7 +359,7 @@ namespace Blackjack
         private void displayCardBack(PictureBox picturebox)
         {
             picturebox.ImageLocation = "b1fv.png";
-            picturebox.SizeMode = PictureBoxSizeMode.StretchImage;
+            picturebox.SizeMode = PictureBoxSizeMode.AutoSize;
         }
 
         // palyer stop move
@@ -387,7 +387,7 @@ namespace Blackjack
                 p4.Height = 96;
                 p4.Location = new Point(154 + bankerbox.Count * 77, 12);
                 p4.ImageLocation = card.Image;
-                p4.SizeMode = PictureBoxSizeMode.StretchImage;
+                p4.SizeMode = PictureBoxSizeMode.AutoSize;
                 this.Controls.Add(p4);
 
 
