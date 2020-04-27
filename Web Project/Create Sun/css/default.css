@@ -1,0 +1,29 @@
+body {
+    animation:background 10s linear infinite alternate;
+}
+div{
+    position:absolute;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-duration:10s;
+    animation-timing-function:ease-out;
+}
+.sun{
+    height:80px;
+    width:80px;
+    top:30px;
+    left:30px;
+    border-radius:40px;
+    animation-name:sun;
+    animation-timing-function:linear;
+}
+@keyframes sun {
+    from{background:yellow;}
+    to{background:white;}
+    from{box-shadow:inset -1px -1px 60px 0px red, -1px -1px 60px 10px orange;}
+    to{box-shadow:inset -1px -1px 60px 0px white, -1px -1px 60px 10px black}
+}
+@keyframes background{
+    0%{background:#87cefa;}
+    100%{background:#290f5a;}
+}

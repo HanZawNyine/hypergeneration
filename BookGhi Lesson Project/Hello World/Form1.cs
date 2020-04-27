@@ -16,5 +16,14 @@ namespace Hello_World
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            double r;
+            double a;
+            r = double.Parse(txtRadius.Text.ToString());
+            a = 3.142 * r * r;
+            txtArea.Text = a.ToString();
+        }
     }
 }
