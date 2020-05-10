@@ -1,0 +1,19 @@
+body{
+	background-color: green;
+}
+h1{ text-shadow: 5px 1px 5px black;
+	text-align: center;
+	color:white;
+}
+.p0,.p1{color:white;
+	text-align: center;
+}
+.p2{color:red;
+	text-align: center;
+}
+.p3{
+	text-align: center;
+}
+.p4{
+	color:white;
+}
