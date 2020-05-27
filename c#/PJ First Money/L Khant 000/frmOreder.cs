@@ -372,5 +372,17 @@ namespace L_Khant_000
         {
             txtSearch.Clear();
         }
+
+        private void printDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+        {
+            Bitmap bm = new Bitmap(this.dgvOreder.Width, this.dgvOreder.Height);
+            dgvOreder.DrawToBitmap(bm, new Rectangle(0, 0, this.dgvOreder.Width, this.dgvOreder.Height));
+            e.Graphics.DrawImage(bm, 0, 0);
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            printDocument1.Print();
+        }
     }
 }

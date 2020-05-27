@@ -274,7 +274,7 @@
             // 
             this.button4.Location = new System.Drawing.Point(1270, 63);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(194, 50);
+            this.button4.Size = new System.Drawing.Size(194, 43);
             this.button4.TabIndex = 22;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = true;

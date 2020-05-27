@@ -519,6 +519,16 @@ namespace L_Khant_000
         {
             txtSearch.Clear();
         }
+
+        private void button3_Click_2(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
+
+        private void printDataToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
 
