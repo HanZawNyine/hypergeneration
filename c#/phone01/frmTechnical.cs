@@ -40,5 +40,10 @@ namespace phone01
         {
 
         }
+
+        private void frmTechnical_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

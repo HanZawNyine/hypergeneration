@@ -1,6 +1,6 @@
-﻿namespace phone01
+﻿namespace Login
 {
-    partial class frmTechnical
+    partial class frmLogin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,38 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dgvTechnical = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTechnical)).BeginInit();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // dgvTechnical
+            // button1
             // 
-            this.dgvTechnical.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTechnical.Location = new System.Drawing.Point(16, 12);
-            this.dgvTechnical.Name = "dgvTechnical";
-            this.dgvTechnical.RowHeadersWidth = 51;
-            this.dgvTechnical.RowTemplate.Height = 24;
-            this.dgvTechnical.Size = new System.Drawing.Size(514, 230);
-            this.dgvTechnical.TabIndex = 0;
-            this.dgvTechnical.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvTechnical_CellContentClick);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(317, 245);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(264, 75);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Login";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // frmTechnical
+            // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.dgvTechnical);
-            this.Name = "frmTechnical";
-            this.Text = "Technical";
-            this.Load += new System.EventHandler(this.frmTechnical_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTechnical)).EndInit();
+            this.Controls.Add(this.button1);
+            this.Name = "frmLogin";
+            this.Text = "Login";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dgvTechnical;
+        private System.Windows.Forms.Button button1;
     }
 }
 

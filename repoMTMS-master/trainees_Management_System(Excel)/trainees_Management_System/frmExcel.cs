@@ -18,7 +18,7 @@ namespace trainees_Management_System
     {
 
         DataSet dst = new DataSet();
-        MySqlDB mysql = new MySqlDB();
+         mysql = new MySqlDB();
         string server_pass = "";
 
 
