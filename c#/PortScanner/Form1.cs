@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WIA;
 using System.IO;
-//using System.Net.Sockets;
 
 namespace PortScanner
 {
@@ -29,7 +28,7 @@ namespace PortScanner
             int EndPint = Convert.ToInt32(txtTo.Text);
             progressBar1.Value = 0;
             progressBar1.Maximum = EndPint - StartPort +1;
-            //Cursor.Current = Cursors.WaitCursor;
+            
 
             for(int currport=StartPort; currport<=EndPint; currport++)
             {
@@ -39,16 +38,16 @@ namespace PortScanner
                 {
                     tcpportScan.Connect(txtIP.Text,currport);
                     txtDisplay.AppendText("port" + currport + "open.\r\n");
-                    //MessageBox.Show("port" + currport + "\nopen.\n");
+                   
 
                 }catch
                 {
                     txtDisplay.AppendText("port" + currport + "closed.\r\n");
-                    //MessageBox.Show("port" + currport + "closed.");
+                   
                 }
                 progressBar1.PerformStep();
 
-               // Cursor.Current = Cursors.Arrow;
+               
             }
 
            
