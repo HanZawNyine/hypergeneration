@@ -9,6 +9,8 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WIA;
+using System.IO;
 //using System.Net.Sockets;
 
 namespace PortScanner
@@ -53,6 +55,34 @@ namespace PortScanner
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FindIP();
+            
+
+        }
+        public void FindIP()
+        {
+            try
+            {
+                IPHostEntry hostname = Dns.GetHostByName(txtDisplay.Text);
+                IPAddress[] ip = hostname.AddressList;
+                string aa = ip[0].ToString();
+                txtDisplay.AppendText(aa+"\r\n");
+                txtIP.Clear();
+                txtIP.Text = aa;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
