@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7AE52320-288E-4EF8-9E0E-4F064F9620E7}</ProjectGuid>
+    <ProjectGuid>{292AB94F-7ED7-4881-9F38-C4FFB9B1D3BE}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>phone01</RootNamespace>
-    <AssemblyName>phone01</AssemblyName>
+    <RootNamespace>Looping</RootNamespace>
+    <AssemblyName>Looping</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,10 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </Reference>
-    <Reference Include="MySql.Data, Version=8.0.20.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -50,58 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmCustomer.cs">
+    <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCustomer.Designer.cs">
-      <DependentUpon>frmCustomer.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmMenu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmMenu.Designer.cs">
-      <DependentUpon>frmMenu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmRegister.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmRegister.Designer.cs">
-      <DependentUpon>frmRegister.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmTechnical.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmTechnical.Designer.cs">
-      <DependentUpon>frmTechnical.cs</DependentUpon>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmCustomer.resx">
-      <DependentUpon>frmCustomer.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmMenu.resx">
-      <DependentUpon>frmMenu.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmRegister.resx">
-      <DependentUpon>frmRegister.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmTechnical.resx">
-      <DependentUpon>frmTechnical.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmCipher.resx">
-      <DependentUpon>frmCipher.cs</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="frmCipher.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmCipher.Designer.cs">
-      <DependentUpon>frmCipher.cs</DependentUpon>
-    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>

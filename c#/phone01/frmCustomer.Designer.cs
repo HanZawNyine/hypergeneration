@@ -74,6 +74,7 @@
             this.cboCustomer.Name = "cboCustomer";
             this.cboCustomer.Size = new System.Drawing.Size(185, 24);
             this.cboCustomer.TabIndex = 2;
+            this.cboCustomer.SelectedIndexChanged += new System.EventHandler(this.cboCustomer_SelectedIndexChanged);
             // 
             // txtCustomer
             // 

@@ -129,6 +129,11 @@ namespace phone01
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void cboCustomer_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
