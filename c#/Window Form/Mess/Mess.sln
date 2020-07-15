@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mess", "Mess.csproj", "{704FD53E-8069-4B6C-B9F6-32D7FFABC858}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{704FD53E-8069-4B6C-B9F6-32D7FFABC858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704FD53E-8069-4B6C-B9F6-32D7FFABC858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704FD53E-8069-4B6C-B9F6-32D7FFABC858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704FD53E-8069-4B6C-B9F6-32D7FFABC858}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFBC47C2-BB95-4ABB-A821-5F59C5780EC3}
+	EndGlobalSection
+EndGlobal
