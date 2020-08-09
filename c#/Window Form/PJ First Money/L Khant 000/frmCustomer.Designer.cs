@@ -269,6 +269,7 @@
             this.txtSearch.Name = "txtSearch";
             this.txtSearch.Size = new System.Drawing.Size(324, 41);
             this.txtSearch.TabIndex = 21;
+            this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
             // button4
             // 
@@ -316,7 +317,7 @@
             // 
             this.ရငရစရငToolStripMenuItem1.Font = new System.Drawing.Font("Adobe Caslon Pro", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ရငရစရငToolStripMenuItem1.Name = "ရငရစရငToolStripMenuItem1";
-            this.ရငရစရငToolStripMenuItem1.Size = new System.Drawing.Size(204, 36);
+            this.ရငရစရငToolStripMenuItem1.Size = new System.Drawing.Size(207, 36);
             this.ရငရစရငToolStripMenuItem1.Text = "ရောင်းရစာရင်း";
             this.ရငရစရငToolStripMenuItem1.Click += new System.EventHandler(this.ရငရစရငToolStripMenuItem1_Click);
             // 
@@ -324,7 +325,7 @@
             // 
             this.productsToolStripMenuItem.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productsToolStripMenuItem.Name = "productsToolStripMenuItem";
-            this.productsToolStripMenuItem.Size = new System.Drawing.Size(204, 36);
+            this.productsToolStripMenuItem.Size = new System.Drawing.Size(207, 36);
             this.productsToolStripMenuItem.Text = "Products";
             this.productsToolStripMenuItem.Click += new System.EventHandler(this.productsToolStripMenuItem_Click);
             // 
@@ -332,14 +333,14 @@
             // 
             this.customersToolStripMenuItem.Font = new System.Drawing.Font("Adobe Caslon Pro Bold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.customersToolStripMenuItem.Name = "customersToolStripMenuItem";
-            this.customersToolStripMenuItem.Size = new System.Drawing.Size(204, 36);
+            this.customersToolStripMenuItem.Size = new System.Drawing.Size(207, 36);
             this.customersToolStripMenuItem.Text = "Customers";
             this.customersToolStripMenuItem.Click += new System.EventHandler(this.customersToolStripMenuItem_Click);
             // 
             // orderToolStripMenuItem
             // 
             this.orderToolStripMenuItem.Name = "orderToolStripMenuItem";
-            this.orderToolStripMenuItem.Size = new System.Drawing.Size(204, 36);
+            this.orderToolStripMenuItem.Size = new System.Drawing.Size(207, 36);
             this.orderToolStripMenuItem.Text = "Order";
             this.orderToolStripMenuItem.Click += new System.EventHandler(this.orderToolStripMenuItem_Click);
             // 

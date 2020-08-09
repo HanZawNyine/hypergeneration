@@ -330,5 +330,10 @@ namespace L_Khant_000
         {
             txtSearch.Clear();
         }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excel TO Dgv", "Excel TO Dgv.csproj", "{CDFC52EB-CEF7-40F4-8817-EB0A4F96B990}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDFC52EB-CEF7-40F4-8817-EB0A4F96B990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDFC52EB-CEF7-40F4-8817-EB0A4F96B990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDFC52EB-CEF7-40F4-8817-EB0A4F96B990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDFC52EB-CEF7-40F4-8817-EB0A4F96B990}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7FF2C20-35FD-48E3-8290-68BB4542C454}
+	EndGlobalSection
+EndGlobal

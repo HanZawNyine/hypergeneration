@@ -104,7 +104,7 @@
             this.label3.Font = new System.Drawing.Font("Zawgyi-One", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(72, 268);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(147, 39);
+            this.label3.Size = new System.Drawing.Size(147, 38);
             this.label3.TabIndex = 4;
             this.label3.Text = "အေရအတြက္";
             // 
@@ -133,7 +133,7 @@
             this.label4.Font = new System.Drawing.Font("Zawgyi-One", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(72, 411);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 39);
+            this.label4.Size = new System.Drawing.Size(87, 38);
             this.label4.TabIndex = 7;
             this.label4.Text = "Money";
             // 
@@ -157,7 +157,7 @@
             this.label5.Font = new System.Drawing.Font("Zawgyi-One", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(71, 558);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(102, 39);
+            this.label5.Size = new System.Drawing.Size(102, 38);
             this.label5.TabIndex = 9;
             this.label5.Text = "Delivery";
             // 
@@ -332,14 +332,14 @@
             // codeToolStripMenuItem
             // 
             this.codeToolStripMenuItem.Name = "codeToolStripMenuItem";
-            this.codeToolStripMenuItem.Size = new System.Drawing.Size(173, 36);
+            this.codeToolStripMenuItem.Size = new System.Drawing.Size(224, 36);
             this.codeToolStripMenuItem.Text = "Code";
             this.codeToolStripMenuItem.Click += new System.EventHandler(this.codeToolStripMenuItem_Click);
             // 
             // moneyToolStripMenuItem
             // 
             this.moneyToolStripMenuItem.Name = "moneyToolStripMenuItem";
-            this.moneyToolStripMenuItem.Size = new System.Drawing.Size(173, 36);
+            this.moneyToolStripMenuItem.Size = new System.Drawing.Size(224, 36);
             this.moneyToolStripMenuItem.Text = "Original";
             this.moneyToolStripMenuItem.Click += new System.EventHandler(this.moneyToolStripMenuItem_Click);
             // 
