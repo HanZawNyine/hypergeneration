@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1598900809 source:e:\hypergeneration\c\aa\main.c
+	<stdio.h>
+	<stdlib.h>
+
