@@ -47,39 +47,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmBrowser.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmBrowser.cs" />
     <Compile Include="frmBrowser.Designer.cs">
       <DependentUpon>frmBrowser.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmCipher.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmCipher.cs" />
     <Compile Include="frmCipher.Designer.cs">
       <DependentUpon>frmCipher.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmLogin.cs" />
     <Compile Include="frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmSearchByTitle.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmSearchByTitle.cs" />
     <Compile Include="frmSearchByTitle.Designer.cs">
       <DependentUpon>frmSearchByTitle.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmShowAll.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmShowAll.cs" />
     <Compile Include="frmShowAll.Designer.cs">
       <DependentUpon>frmShowAll.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmStudentRegister.cs">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="frmStudentRegister.cs" />
     <Compile Include="frmStudentRegister.Designer.cs">
       <DependentUpon>frmStudentRegister.cs</DependentUpon>
     </Compile>

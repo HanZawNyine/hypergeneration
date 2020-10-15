@@ -53,12 +53,15 @@
             this.cboDone = new System.Windows.Forms.ComboBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnInsert = new System.Windows.Forms.Button();
+            this.txtCustomerId = new System.Windows.Forms.TextBox();
+            this.txtOrderID = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblCustomer
             // 
             this.lblCustomer.AutoSize = true;
-            this.lblCustomer.Location = new System.Drawing.Point(25, 53);
+            this.lblCustomer.Location = new System.Drawing.Point(25, 145);
             this.lblCustomer.Name = "lblCustomer";
             this.lblCustomer.Size = new System.Drawing.Size(109, 17);
             this.lblCustomer.TabIndex = 0;
@@ -66,16 +69,15 @@
             // 
             // txtCoustomerName
             // 
-            this.txtCoustomerName.Location = new System.Drawing.Point(176, 50);
+            this.txtCoustomerName.Location = new System.Drawing.Point(176, 142);
             this.txtCoustomerName.Name = "txtCoustomerName";
             this.txtCoustomerName.Size = new System.Drawing.Size(414, 22);
             this.txtCoustomerName.TabIndex = 1;
-            this.txtCoustomerName.Text = "a20";
             // 
             // lblPhoneNo
             // 
             this.lblPhoneNo.AutoSize = true;
-            this.lblPhoneNo.Location = new System.Drawing.Point(27, 102);
+            this.lblPhoneNo.Location = new System.Drawing.Point(27, 194);
             this.lblPhoneNo.Name = "lblPhoneNo";
             this.lblPhoneNo.Size = new System.Drawing.Size(103, 17);
             this.lblPhoneNo.TabIndex = 2;
@@ -83,16 +85,15 @@
             // 
             // txtPHoneNo
             // 
-            this.txtPHoneNo.Location = new System.Drawing.Point(176, 102);
+            this.txtPHoneNo.Location = new System.Drawing.Point(176, 194);
             this.txtPHoneNo.Name = "txtPHoneNo";
             this.txtPHoneNo.Size = new System.Drawing.Size(414, 22);
             this.txtPHoneNo.TabIndex = 3;
-            this.txtPHoneNo.Text = "09448450841";
             // 
             // lblSdCard
             // 
             this.lblSdCard.AutoSize = true;
-            this.lblSdCard.Location = new System.Drawing.Point(27, 237);
+            this.lblSdCard.Location = new System.Drawing.Point(27, 329);
             this.lblSdCard.Name = "lblSdCard";
             this.lblSdCard.Size = new System.Drawing.Size(61, 17);
             this.lblSdCard.TabIndex = 4;
@@ -105,11 +106,10 @@
             this.cboSdCard.Items.AddRange(new object[] {
             "yes",
             "no"});
-            this.cboSdCard.Location = new System.Drawing.Point(175, 230);
+            this.cboSdCard.Location = new System.Drawing.Point(175, 322);
             this.cboSdCard.Name = "cboSdCard";
             this.cboSdCard.Size = new System.Drawing.Size(414, 24);
             this.cboSdCard.TabIndex = 5;
-            this.cboSdCard.Text = "no";
             // 
             // cboSimCard
             // 
@@ -117,16 +117,15 @@
             this.cboSimCard.Items.AddRange(new object[] {
             "yes",
             "no"});
-            this.cboSimCard.Location = new System.Drawing.Point(174, 164);
+            this.cboSimCard.Location = new System.Drawing.Point(174, 256);
             this.cboSimCard.Name = "cboSimCard";
             this.cboSimCard.Size = new System.Drawing.Size(414, 24);
             this.cboSimCard.TabIndex = 7;
-            this.cboSimCard.Text = "no";
             // 
             // lblSimCard
             // 
             this.lblSimCard.AutoSize = true;
-            this.lblSimCard.Location = new System.Drawing.Point(26, 171);
+            this.lblSimCard.Location = new System.Drawing.Point(26, 263);
             this.lblSimCard.Name = "lblSimCard";
             this.lblSimCard.Size = new System.Drawing.Size(65, 17);
             this.lblSimCard.TabIndex = 6;
@@ -135,7 +134,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(27, 309);
+            this.lblPassword.Location = new System.Drawing.Point(27, 401);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(69, 17);
             this.lblPassword.TabIndex = 8;
@@ -143,24 +142,23 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(178, 302);
+            this.txtPassword.Location = new System.Drawing.Point(178, 394);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(414, 22);
             this.txtPassword.TabIndex = 9;
-            this.txtPassword.Text = "20303";
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // txtAmount
             // 
-            this.txtAmount.Location = new System.Drawing.Point(185, 373);
+            this.txtAmount.Location = new System.Drawing.Point(185, 465);
             this.txtAmount.Name = "txtAmount";
             this.txtAmount.Size = new System.Drawing.Size(414, 22);
             this.txtAmount.TabIndex = 11;
-            this.txtAmount.Text = "2300";
             // 
             // lblAmount
             // 
             this.lblAmount.AutoSize = true;
-            this.lblAmount.Location = new System.Drawing.Point(34, 380);
+            this.lblAmount.Location = new System.Drawing.Point(34, 472);
             this.lblAmount.Name = "lblAmount";
             this.lblAmount.Size = new System.Drawing.Size(56, 17);
             this.lblAmount.TabIndex = 10;
@@ -203,11 +201,11 @@
             // lblCoustomerID
             // 
             this.lblCoustomerID.AutoSize = true;
-            this.lblCoustomerID.Location = new System.Drawing.Point(25, 9);
+            this.lblCoustomerID.Location = new System.Drawing.Point(27, 31);
             this.lblCoustomerID.Name = "lblCoustomerID";
-            this.lblCoustomerID.Size = new System.Drawing.Size(76, 17);
+            this.lblCoustomerID.Size = new System.Drawing.Size(93, 17);
             this.lblCoustomerID.TabIndex = 16;
-            this.lblCoustomerID.Text = "Coustomer";
+            this.lblCoustomerID.Text = "Coustomer ID";
             this.lblCoustomerID.Click += new System.EventHandler(this.lblCoustomerID_Click);
             // 
             // lblTechnicalName
@@ -225,7 +223,6 @@
             this.txtTechnicalName.Name = "txtTechnicalName";
             this.txtTechnicalName.Size = new System.Drawing.Size(414, 22);
             this.txtTechnicalName.TabIndex = 18;
-            this.txtTechnicalName.Text = "a10";
             // 
             // txtError
             // 
@@ -233,7 +230,6 @@
             this.txtError.Name = "txtError";
             this.txtError.Size = new System.Drawing.Size(414, 22);
             this.txtError.TabIndex = 20;
-            this.txtError.Text = "no power";
             // 
             // lblError
             // 
@@ -263,7 +259,6 @@
             this.cboDone.Name = "cboDone";
             this.cboDone.Size = new System.Drawing.Size(414, 24);
             this.cboDone.TabIndex = 22;
-            this.cboDone.Text = "no";
             // 
             // btnCancel
             // 
@@ -277,7 +272,7 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(996, 354);
+            this.btnInsert.Location = new System.Drawing.Point(951, 362);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(160, 45);
             this.btnInsert.TabIndex = 24;
@@ -285,11 +280,38 @@
             this.btnInsert.UseVisualStyleBackColor = true;
             this.btnInsert.Click += new System.EventHandler(this.btnInsert_Click);
             // 
+            // txtCustomerId
+            // 
+            this.txtCustomerId.Location = new System.Drawing.Point(174, 33);
+            this.txtCustomerId.Name = "txtCustomerId";
+            this.txtCustomerId.Size = new System.Drawing.Size(414, 22);
+            this.txtCustomerId.TabIndex = 26;
+            // 
+            // txtOrderID
+            // 
+            this.txtOrderID.Location = new System.Drawing.Point(174, 82);
+            this.txtOrderID.Name = "txtOrderID";
+            this.txtOrderID.Size = new System.Drawing.Size(414, 22);
+            this.txtOrderID.TabIndex = 28;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(27, 80);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 17);
+            this.label1.TabIndex = 27;
+            this.label1.Text = "Order ID";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // frmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1199, 556);
+            this.Controls.Add(this.txtOrderID);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtCustomerId);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.cboDone);
@@ -350,5 +372,8 @@
         private System.Windows.Forms.ComboBox cboDone;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.TextBox txtCustomerId;
+        private System.Windows.Forms.TextBox txtOrderID;
+        private System.Windows.Forms.Label label1;
     }
 }
